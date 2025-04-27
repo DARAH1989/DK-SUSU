@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEMAT Susu Savings - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    /* General Team Section Styling */
+    .team-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* Top and Bottom Row Styling */
+    .top-row, .bottom-row {
+        display: flex;
+        justify-content: center; /* Horizontally aligns images */
+        flex-wrap: wrap;
+        gap: 20px; /* Spacing between images */
+    }
+
+    /* Individual Team Member Styling */
+    .team-member {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 220px; /* Fixed width */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .team-member:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Image Styling */
+    .team-member img {
+        width: 100%;
+        border-radius: 10px;
+        height: auto;
+    }
+
+    /* Name and ID Styling */
+    .team-member h3 {
+        font-size: 1.2rem;
+        color: #2c3e50;
+        margin-top: 10px;
+    }
+
+    .team-member p {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 5px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .top-row, .bottom-row {
+            flex-wrap: wrap; /* Ensures proper alignment on mobile */
+        }
+
+        .team-member {
+            width: 90%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Who We Are Section -->
+        <section style="margin: 20px auto; display: flex; flex-direction: column; align-items: center; text-align: center; background-color: #f4f4f4; padding: 20px; border-radius: 10px; max-width: 800px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+            <h2 style="color: #b31147; font-size: 26px; margin-bottom: 15px; font-family: Arial, sans-serif;">Who We Are</h2>
+            <p style="line-height: 1.8; margin-bottom: 15px; max-width: 700px; font-size: 16px; color: #333;">BEMAT Susu Savings is a community-driven platform that empowers individuals to save and grow their finances. Our mission is to provide accessible and secure savings solutions for everyone.</p>
+            <p style="line-height: 1.8; margin-bottom: 25px; max-width: 700px; font-size: 16px; color: #333;">We believe in the power of collective effort and aim to foster financial independence through innovative and user-friendly services.</p>
+            <table style="width: 90%; max-width: 700px; border-collapse: collapse; margin: 0 auto; text-align: center; background-color: white; border: 2px solid #b31147;">
+                <thead>
+                    <tr>
+                        <th style="padding: 12px; background-color: #b31147; color: white; text-align: center; font-size: 16px; border: 2px solid #b31147;">Core Values</th>
+                        <th style="padding: 12px; background-color: #b31147; color: white; text-align: center; font-size: 16px; border: 2px solid #b31147;">Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 12px; font-size: 14px; color: #333; border: 1px solid #b31147; text-align: center;">Trust</td>
+                        <td style="padding: 12px; font-size: 14px; color: #333; border: 1px solid #b31147; text-align: center;">Building lasting relationships.</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; font-size: 14px; color: #333; border: 1px solid #b31147; text-align: center;">Reliability</td>
+                        <td style="padding: 12px; font-size: 14px; color: #333; border: 1px solid #b31147; text-align: center;">Providing secure savings services.</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; font-size: 14px; color: #333; border: 1px solid #b31147; text-align: center;">Innovation</td>
+                        <td style="padding: 12px; font-size: 14px; color: #333; border: 1px solid #b31147; text-align: center;">Continuously improving our platform.</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; font-size: 14px; color: #333; border: 1px solid #b31147; text-align: center;">Community</td>
+                        <td style="padding: 12px; font-size: 14px; color: #333; border: 1px solid #b31147; text-align: center;">Empowering individuals through collaboration.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Our Team Section -->
+        <section>
+            <h2>Our Team</h2>
+            <!-- Team Section -->
+            <div class="team-section">
+                <!-- Top Row: Four Images -->
+                <div class="top-row">
+                    <div class="team-member">
+                        <img src="members/ABLOR ISRAEL KWADZO.jpg" alt="ABLOR ISRAEL KWADZO">
+                        <h3>ABLOR ISRAEL KWADZO</h3>
+                        <p>BEMAT/VR/04/23/0014</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="members/AMRAGO GIDEON.jpg" alt="AMRAGO GIDEON">
+                        <h3>AMRAGO GIDEON</h3>
+                        <p>BEMAT/VR/04/23/0019</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="members/ASARE JACKSON MICHAEL.jpg" alt="ASARE JACKSON MICHAEL">
+                        <h3>ASARE JACKSON MICHAEL</h3>
+                        <p>BEMAT/VR/04/23/0000</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="members/DZOMEKU JEMIMA.jpg" alt="DZOMEKU JEMIMA">
+                        <h3>DZOMEKU JEMIMA</h3>
+                        <p>BEMAT/VR/04/23/0040</p>
+                    </div>
+                </div>
+            
+                <!-- Bottom Row: Three Images -->
+                <div class="bottom-row">
+                    <div class="team-member">
+                        <img src="members/DARAH KINGSLY.jpg" alt="DARAH KINGSLY">
+                        <h3>DARAH KINGSLY</h3>
+                        <p>BEMAT/VR/04/23/0026</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="members/OFORI LYDIA.jpg" alt="OFORI LYDIA">
+                        <h3>OFORI LYDIA</h3>
+                        <p>BEMAT/VR/04/23/0002</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="members/GALENKU HULADE.jpg" alt="GALENKU HULADE">
+                        <h3>GALENKU HULADE</h3>
+                        <p>BEMAT/VR/04/23/0037</p>
+                    </div>
+                </div>
+            </div>
+  </section>
+
+  <section style="margin-bottom: 40px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+    <div class="info-button">
+        <h2 style="margin: 0;">Our History</h2>
+    </div>
+    <p>BEMAT Susu Savings was founded in 2020 with the vision of creating a platform that makes saving simple and effective. Over the years, we have grown into a trusted name in the community.</p>
+</section>
+
+<section style="margin-bottom: 40px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+    <div class="info-button">
+        <h2 style="margin: 0;">Contact Information</h2>
+    </div>
+    <p>If you have any questions or need assistance, feel free to reach out to us:</p>
+    <ul>
+        <li>Email: <a href="mailto:support@bematsusu.com">support@bematsusu.com</a></li>
+        <li>Phone: +123-456-7890</li>
+        <li>Address: Mawuli SHS Lane, Finance City, Volta</li>
+    </ul>
+</section>
+
+        <!-- FAQ Section -->
+        <section style="margin-bottom: 40px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <p style="line-height: 1.6; max-width: 700px; font-size: 16px; color: #333;">Have questions? Check out our FAQ section for quick answers to common inquiries.</p>
+            <a href="faq.html" style="text-decoration: none;">
+                <div class="faq-button">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+            </a>
+        </section>   
+
+
+    </main>
+    <footer>
+        <p>&copy; 2025 BEMAT Susu Savings. All rights reserved.</p>
+        <div style="text-align: center; margin-top: 10px;">
+            <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px;">
+            <img src="images/fb.png" alt="Facebook" style="width: 24px; height: 24px; border-radius: 50%;">
+            </a>
+            <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px;">
+            <img src="images/x.jpg" alt="Twitter" style="width: 24px; height: 24px; border-radius: 50%;">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px;">
+            <img src="images/insta.jpg" alt="Instagram" style="width: 24px; height: 24px; border-radius: 50%;">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
